@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Carrinho Autônomo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><span class="dot"></span> Laboratório de Robótica</div>
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#pecas">Peças</a>
+        <a href="#integrantes">Integrantes</a>
+      </nav>
+      <a class="cta" href="#demo">Ver Demo</a>
+    </div>
+  </header>
+
+  <main id="inicio" class="container">
+    <section class="hero">
+      <div class="hero-img">
+        <img src="/imagens/carrinho teste.jpg" alt="Carrinho Autônomo">
+      </div>
+      <div class="hero-text">
+        <h1>Carrinho Autônomo</h1>
+        <p class="lead">Explore a tecnologia de veículos seguelinha com sensores inteligentes e programação embarcada.</p>
+        <div class="btns">
+          <a class="btn primary" href="#demo">Ver Demo</a>
+          <a class="btn" href="#funcionalidades">Ver Funcionalidades</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="funcionalidades">
+      <h2 class="section-title">O que ele faz</h2>
+      <div class="features">
+        <div class="card">
+          <strong>Segue linhas automaticamente</strong>
+          <p class="lead">Ajusta a rota com base nos sensores infravermelhos.</p>
+        </div>
+        <div class="card">
+          <strong>Desvia de obstáculos</strong>
+          <p class="lead">Sensor ultrassônico detecta objetos e redireciona o carrinho.</p>
+        </div>
+        <div class="card">
+          <strong>Monitoramento remoto</strong>
+          <p class="lead">Conexão Bluetooth para supervisão via app.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pecas">
+      <h2 class="section-title">Componentes Utilizados</h2>
+      <div class="card">
+        <ul class="list">
+          <li>Placa Arduino Uno</li>
+          <li>Driver L293D</li>
+          <li>4 Motores DC com rodas</li>
+          <li>Sensores IR</li>
+          <li>Sensor Ultrassônico</li>
+          <li>Bateria recarregável</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="integrantes">
+      <h2 class="section-title">Equipe</h2>
+
+      <!-- Perfil destacado do carrinho -->
+      <div class="integrante-destaque">
+        <img src="/imagens/carrinho teste2.jpg" alt="Carrinho">
+        <a href="#">Carrinho Autônomo</a>
+      </div>
+
+      <!-- Grid dos integrantes com scroll horizontal -->
+      <div class="integrantes">
+        <div class="person"><img src="https://i.pravatar.cc/400?img=12" alt="Integrante"/><a href="#">Alexander</a></div>
+        <div class="person"><img src="https://i.pravatar.cc/400?img=23" alt="Integrante"/><a href="#">Arthur</a></div>
+        <div class="person"><img src="https://i.pravatar.cc/400?img=34" alt="Integrante"/><a href="#">Artur</a></div>
+        <div class="person"><img src="/imagens/lunna.jpg" alt="Integrante"/><a href="#">Lunna</a></div>
+        <div class="person"><img src="https://i.pravatar.cc/400?img=56" alt="Integrante"/><a href="#">Kamilly</a></div>
+        <div class="person"><img src="https://i.pravatar.cc/400?img=67" alt="Integrante"/><a href="#">Eduarda</a></div>
+        <div class="person"><img src="https://i.pravatar.cc/400?img=78" alt="Integrante"/><a href="#">Fafá</a></div>
+        <div class="person"><img src="https://i.pravatar.cc/400?img=89" alt="Integrante"/><a href="#">Vytor</a></div>
+      </div>
+    </section>
+
+    <section id="demo">
+      <div class="card demo-card">
+        <div>
+          <h3>Assista ao carrinho em ação</h3>
+          <p class="lead">Clique no botão abaixo para abrir a demonstração em vídeo.</p>
+        </div>
+        <button id="openDemo" class="cta">Ver Demo</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2025 • Projeto Carrinho Autônomo • Laboratório de Robótica</div>
+  </footer>
+
+  <div class="modal" id="demoModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong>Demonstração do Carrinho</strong>
+        <button class="close" id="closeDemo">✕</button>
+      </div>
+      <div class="modal-body">
+        <iframe src="/imagens/video teste.mp4" title="Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
