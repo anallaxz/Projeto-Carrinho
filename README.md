@@ -3,7 +3,7 @@
 Bem-vindo ao repositório do **Projeto Carrinho Autônomo**, desenvolvido no **Laboratório de Robótica**.  
 Este projeto consiste em um **carrinho seguidor de linha com desvio de obstáculos**, utilizando **Arduino**, sensores e programação embarcada.
 
-![Carrinho Autônomo](./imagens/carrinho%20teste.jpg)
+![Carrinho Autônomo](/imagens/marquinhos2.jpeg)
 
 ---
 
