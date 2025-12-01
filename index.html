@@ -100,8 +100,8 @@
     <section id="demo">
       <div class="card demo-card">
         <div>
-          <h3>Assista ao carrinho em ação</h3>
-          <p class="lead">Clique no botão abaixo para abrir a demonstração em vídeo.</p>
+          <h3>Visualização dos Componentes e Design</h3>
+          <p class="lead">Explore as imagens do Marquinhos. Infelizmente, no dia da apresentação, o carrinho apresentou falhas e só conseguiu andar em linha reta. A demonstração em vídeo será substituída por uma galeria de fotos.</p>
         </div>
         <button id="openDemo" class="cta">Ver Demo</button>
       </div>
@@ -113,17 +113,21 @@
   </footer>
 
   <div class="modal" id="demoModal" aria-hidden="true" role="dialog">
-    <div class="modal-card">
-      <div class="modal-head">
-        <strong>Demonstração do Carrinho</strong>
-        <button class="close" id="closeDemo">✕</button>
-      </div>
-      <div class="modal-body">
-        <video id="demoVideo" src="/imagens/video teste.mp4" controls></video>
-      </div>
-    </div>
-  </div>
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong>Demonstração do Carrinho</strong>
+        <button class="close" id="closeDemo">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="gallery-scroll"> <img src="/imagens/carrinho (cima).jpg" alt="Carrinho Vista Cima">
+          <img src="/imagens/carrinho (direita).jpg" alt="Carrinho Vista Direita">
+          <img src="/imagens/carrinho (esquerda).jpg" alt="Carrinho Vista Esquerda">
+          <img src="/imagens/carrinho (frente).jpg" alt="Carrinho Vista Frente">
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
