@@ -1,94 +1,136 @@
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&text=%F0%9F%9A%97%20Projeto%20Carrinho%20Aut%C3%B4nomo&fontSize=21&fontColor=FFFFFF&fontAlign=19&fontAlignY=95&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=FF0C00"  />
+<h4 data-importer="text" align="center">🚘 Projeto Carrinho Autônomo 🚘</h4>
+
+<br clear="both">
+
+###
+
+<img align="left" style="width: 20vw; height: 20vh; object-fit: contain" src="https://i.pinimg.com/originals/71/e8/55/71e855820122eca5641882af85cc0c7c.gif"  />
+
+###
+
+<p data-importer="text" align="left"></p>
+
+###
+
+<p data-importer="text" align="left">Bem-vindo ao repositório do Projeto Carrinho Autônomo, <br>desenvolvido no Laboratório de Robótica. Este projeto <br>consiste em um carrinho seguidor de linha com desvio de <br>obstáculos, utilizando Arduino, sensores e programação embarcada.</p>
+
+###
+
+<p data-importer="text" align="left"></p>
+
+###
+
+<br clear="both">
+
+<p data-importer="text" align="left"></p>
+
+###
+
+<br clear="both">
+
+<h4 data-importer="text" align="center">⤷ ゛Funcionalidades 📌ˎˊ˗</h4>
+
+###
+
+<img data-importer="image" align="right" height="160" src="https://64.media.tumblr.com/a533819c061dc12acfe0ae597395e0bd/51b7589f165c78e6-8c/s540x810/3bfcb973161064d4ea0a7af60e3c8a28ab51f252.gifv"  />
+
+###
+
+<p data-importer="text" align="left">⚡ Segue linhas automaticamente através de sensores infravermelhos<br>⚡ Detecta obstáculos utilizando sensor ultrassônico (HC-SR04)<br>⚡ Desvia dos obstáculos e recalcula rota<br>⚡ Conexão via Bluetooth para monitoramento remoto<br>⚡ Feedback com LEDs e buzzer</p>
+
+###
+
+<br clear="both">
+
+<p data-importer="text" align="left"></p>
+
+###
+
+<br clear="both">
+
+<h4 data-importer="text" align="center">⤷ ゛Componentes Utilizados ♦️ˎˊ˗</h4>
+
+###
+
+<p data-importer="text" align="left"></p>
+
+###
+
+<table align="center">
+  <tr>
+    <td>
+      <ul>
+        <li>Arduino Uno</li>
+        <li>Protoboard 400 pontos</li>
+        <li>4 Motores DC + 4 Rodas</li>
+        <li>Chassi de acrílico</li>
+        <li>3 Sensores Infravermelhos</li>
+        <li>1 Sensor Ultrassônico HC-SR04</li>
+        <li>LEDs e resistores</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>1 Buzzer</li>
+        <li>Jumpers</li>
+        <li>Ponte H L298N</li>
+        <li>2 Pilhas 3,7V</li>
+        <li>1 Bateria 9V</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+###
+
+<br clear="both">
+
+<p data-importer="text" align="left"></p>
+
+###
+
+<h4 data-importer="text" align="center">⤷ ゛Linguagens & Tecnologias 🐞ˎˊ˗</h4>
+
+###
+
+<div data-importer="techs" align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="27" alt="html5 logo"  />
+  <img width="5" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?logo=css&logoColor=white&style=for-the-badge" height="27" alt="css logo"  />
+  <img width="5" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="27" alt="javascript logo"  />
+  <img width="5" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge" height="27" alt="arduino logo"  />
 </div>
 
 ###
 
 <br clear="both">
 
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=transparent&height=1&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=26&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
+<h4 data-importer="text" align="center"></h4>
+
+###
+
+<h4 data-importer="text" align="center">⤷ ゛Demonstração 🚩ˎˊ˗</h4>
+
+###
+
+<p align="center">
+  O projeto conta com uma página web que apresenta as funcionalidades e inclui um modal de imagens do carrinho.<br>
+  ⚡ Acesse a versão online: <a href="https://projeto-carrinho-ocjm.vercel.app/#inicio" target="_blank">Projeto Carrinho</a>
+</p>
+
+###
+
+<h4 data-importer="text" align="center"></h4>
 
 ###
 
 <br clear="both">
 
-<img align="right" height="213" src="https://i.pinimg.com/originals/71/e8/55/71e855820122eca5641882af85cc0c7c.gif"  />
+<h4 data-importer="text" align="center">⤷ ゛Estrutura do Projeto 📂ˎˊ˗</h4>
 
 ###
-
-<p align="left"></p>
-
-###
-
-<p align="left">Bem-vindo ao repositório do Projeto Carrinho Autônomo, desenvolvido no Laboratório de Robótica.<br>Este projeto consiste em um carrinho seguidor de linha com desvio de obstáculos, utilizando Arduino, sensores e programação embarcada.</p>
-
-###
-
-<p align="left"></p>
-
-###
-
-<br clear="both">
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=31&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=801A0C"  />
-</div>
-
-###
-
-<br clear="both">
-
-<h3 align="left">📌 Funcionalidades</h3>
-
-###
-
-<br clear="both">
-
-<p align="left">⚡ Segue linhas automaticamente através de sensores infravermelhos<br>⚡ Detecta obstáculos utilizando sensor ultrassônico (HC-SR04)<br>⚡ Desvia dos obstáculos e recalcula rota<br>⚡ Conexão via Bluetooth para monitoramento remoto<br>⚡ Feedback com LEDs e buzzer</p>
-
-###
-
-<br clear="both">
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=31&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=801A0C"  />
-</div>
-
-###
-
-<br clear="both">
-
-<h3 align="left">🔧 Componentes Utilizados</h3>
-
-###
-
-<br clear="both">
-
-<p align="left">Arduino Uno<br>Protoboard 400 pontos<br>4 Motores DC + 4 Rodas<br>Chassi de acrílico<br>3 Sensores Infravermelhos<br>1 Sensor Ultrassônico HC-SR04<br>LEDs e resistores<br>1 Buzzer<br>Jumpers<br>Ponte H L298N<br>2 Pilhas 3,7V<br>1 Bateria 9V</p>
-
-###
-
-<br clear="both">
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=31&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=801A0C"  />
-</div>
-
-###
-
-## 🖼️ Demonstração
-
-O projeto conta com uma página web que apresenta as funcionalidades e inclui um modal com vídeo de demonstração do carrinho em funcionamento.
-
-👉 Acesse a versão online: [Projeto Carrinho](https://projeto-carrinho-ocjm.vercel.app/#inicio)
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=31&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=801A0C"  />
-</div>
-
-## 📂 Estrutura do Projeto
 
 ```bash
 Projeto-Carrinho/
